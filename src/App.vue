@@ -92,7 +92,7 @@
     components: { Sidebar },
     methods: {
       toggleChannelDialog() {
-         this.$store.commit('TOGGLE_ADD_CAHNNEL');
+         this.$store.commit('TOGGLE_ADD_CHANNEL');
       },
       submit(form) {
         this.$refs[form].validate((valid) => {
